@@ -64,3 +64,7 @@ The example above is intentionally minimal. A few things to wire up for real use
 **Streaming Creator OTP Cutover: SMS (required for real sending)**
 - **Streaming Creator OTP Cutover:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Streaming Creator OTP Cutover:** Sandbox/test numbers may work without it; production traffic will not.
+
+## Further reading
+
+- [Password Reset Email Bake-Off: API-First Delivery on Your Own Domain](docs/password-reset-email-bake-off-api-first-delivery-96bfer.md)
